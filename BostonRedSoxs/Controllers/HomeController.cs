@@ -13,5 +13,13 @@ namespace BostonRedSoxs.Controllers
         {
             return View();
         }
+        public ActionResult Clips()
+        {
+            return View();
+        }
+        public ActionResult Squad()
+        {
+            return View();
+        }
     }
 }

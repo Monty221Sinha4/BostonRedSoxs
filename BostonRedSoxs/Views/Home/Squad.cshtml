@@ -1,0 +1,1889 @@
+﻿
+@{
+    ViewBag.Title = "Squad";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Squad</h2>
+
+<table _ngcontent-lineup-app-id-c106="" class="multi-row-data-table t-stripped">
+    <thead _ngcontent-lineup-app-id-c106="">
+        <tr _ngcontent-lineup-app-id-c106="" class="t-sub-header">
+            <th _ngcontent-lineup-app-id-c106="" class="text-left position-column">
+                <mfsorter _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Pos
+                        <span _ngcontent-lineup-app-id-c92="" aria-hidden="true" class="icon triangle-top"></span><!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+            <th _ngcontent-lineup-app-id-c106="" class="text-center image-player-name-th">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="name" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Name
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+            <th _ngcontent-lineup-app-id-c106="" class="text-center">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="number" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Number
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+            <th _ngcontent-lineup-app-id-c106="" class="text-center">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="lineups_rating" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Rating
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+            <th _ngcontent-lineup-app-id-c106="" class="text-center">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="height" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Height
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+            <th _ngcontent-lineup-app-id-c106="" class="text-center">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="weight" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Weight
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+            <th _ngcontent-lineup-app-id-c106="" class="text-center">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="age" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Age
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+            <th _ngcontent-lineup-app-id-c106="" class="text-center">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="birth_date" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Birthday
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+            <th _ngcontent-lineup-app-id-c106="" class="text-center">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="experience" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        Exp.
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+
+
+
+
+
+
+
+
+
+            <th _ngcontent-lineup-app-id-c106="" width="13%" class="text-center">
+                <mfsorter _ngcontent-lineup-app-id-c106="" by="college" _nghost-lineup-app-id-c92="">
+                    <a _ngcontent-lineup-app-id-c92="" class="text-nowrap" style="cursor: pointer;">
+                        College
+                        <!---->
+                        <!---->
+                    </a>
+                </mfsorter>
+            </th>
+        </tr>
+    </thead>
+    <tbody _ngcontent-lineup-app-id-c106="">
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">SP</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Chris Sale" href="/mlb/player-stats/chris-sale">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Chris Sale" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70" hidden="">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+
+
+                                    <img _ngcontent-lineup-app-id-c102="" alt="Chris Sale" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/mlb/players/low-res/10000249.png" width="65" height="70">
+                                    <!---->
+                                    <!----><!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/chris-sale">
+                        <span>
+                            <span class="player-name-col-lg">Chris Sale</span>
+                            <!---->
+                            <span class="player-name-col-xs">C. Sale</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">41</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="yellow">82</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 6"</td>
+            <td _ngcontent-lineup-app-id-c106="">183</td>
+            <td _ngcontent-lineup-app-id-c106="">32</td>
+            <td _ngcontent-lineup-app-id-c106="">3/30/89</td>
+            <td _ngcontent-lineup-app-id-c106="">11th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Florida Gulf Coast</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">SP</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Bryan Mata" href="/mlb/player-stats/bryan-mata">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Bryan Mata" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70" hidden="">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+
+
+                                    <img _ngcontent-lineup-app-id-c102="" alt="Bryan Mata" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/mlb/players/low-res/0.png" width="65" height="70">
+                                    <!---->
+                                    <!----><!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/bryan-mata">
+                        <span>
+                            <span class="player-name-col-lg">Bryan Mata</span>
+                            <!---->
+                            <span class="player-name-col-xs">B. Mata</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">79</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="yellow">81</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 3"</td>
+            <td _ngcontent-lineup-app-id-c106="">238</td>
+            <td _ngcontent-lineup-app-id-c106="">21</td>
+            <td _ngcontent-lineup-app-id-c106="">5/3/99</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">SP</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Nick Pivetta" href="/mlb/player-stats/nick-pivetta">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Nick Pivetta" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70" hidden="">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+
+
+                                    <img _ngcontent-lineup-app-id-c102="" alt="Nick Pivetta" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/mlb/players/low-res/10006571.png" width="65" height="70">
+                                    <!---->
+                                    <!----><!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/nick-pivetta">
+                        <span>
+                            <span class="player-name-col-lg">Nick Pivetta</span>
+                            <!---->
+                            <span class="player-name-col-xs">N. Pivetta</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">37</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="orange">76</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 5"</td>
+            <td _ngcontent-lineup-app-id-c106="">214</td>
+            <td _ngcontent-lineup-app-id-c106="">28</td>
+            <td _ngcontent-lineup-app-id-c106="">2/14/93</td>
+            <td _ngcontent-lineup-app-id-c106="">4th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">New Mexico Junior College</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">SP</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Tanner Houck" href="/mlb/player-stats/tanner-houck">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Tanner Houck" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70" hidden="">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+
+
+                                    <img _ngcontent-lineup-app-id-c102="" alt="Tanner Houck" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/mlb/players/low-res/0.png" width="65" height="70">
+                                    <!---->
+                                    <!----><!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/tanner-houck">
+                        <span>
+                            <span class="player-name-col-lg">Tanner Houck</span>
+                            <!---->
+                            <span class="player-name-col-xs">T. Houck</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">89</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">92</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 5"</td>
+            <td _ngcontent-lineup-app-id-c106="">230</td>
+            <td _ngcontent-lineup-app-id-c106="">24</td>
+            <td _ngcontent-lineup-app-id-c106="">6/29/96</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">SP</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Nathan Eovaldi" href="/mlb/player-stats/nathan-eovaldi">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Nathan Eovaldi" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70" hidden="">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+
+
+                                    <img _ngcontent-lineup-app-id-c102="" alt="Nathan Eovaldi" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/mlb/players/low-res/10000837.png" width="65" height="70">
+                                    <!---->
+                                    <!----><!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/nathan-eovaldi">
+                        <span>
+                            <span class="player-name-col-lg">Nathan Eovaldi</span>
+                            <!---->
+                            <span class="player-name-col-xs">N. Eovaldi</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">17</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">92</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 2"</td>
+            <td _ngcontent-lineup-app-id-c106="">217</td>
+            <td _ngcontent-lineup-app-id-c106="">31</td>
+            <td _ngcontent-lineup-app-id-c106="">2/13/90</td>
+            <td _ngcontent-lineup-app-id-c106="">9th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Eduard Bazardo" href="/mlb/player-stats/eduard-bazardo">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Eduard Bazardo" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70" hidden="">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+
+
+                                    <img _ngcontent-lineup-app-id-c102="" alt="Eduard Bazardo" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/mlb/players/low-res/0.png" width="65" height="70">
+                                    <!---->
+                                    <!----><!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/eduard-bazardo">
+                        <span>
+                            <span class="player-name-col-lg">Eduard Bazardo</span>
+                            <!---->
+                            <span class="player-name-col-xs">E. Bazardo</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">83</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="light-green">89</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 0"</td>
+            <td _ngcontent-lineup-app-id-c106="">165</td>
+            <td _ngcontent-lineup-app-id-c106="">25</td>
+            <td _ngcontent-lineup-app-id-c106="">9/1/95</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Darwinzon Hernandez" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70" hidden="">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+
+
+                                    <img _ngcontent-lineup-app-id-c102="" alt="Darwinzon Hernandez" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/mlb/players/low-res/10007420.png" width="65" height="70">
+                                    <!---->
+                                    <!----><!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Darwinzon Hernandez</span>
+                        <!---->
+                        <span class="player-name-col-xs">D. Hernandez</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">63</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="orange">72</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 2"</td>
+            <td _ngcontent-lineup-app-id-c106="">255</td>
+            <td _ngcontent-lineup-app-id-c106="">24</td>
+            <td _ngcontent-lineup-app-id-c106="">12/17/96</td>
+            <td _ngcontent-lineup-app-id-c106="">2nd season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Garrett Richards" href="/mlb/player-stats/garrett-richards">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Garrett Richards" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/garrett-richards">
+                        <span>
+                            <span class="player-name-col-lg">Garrett Richards</span>
+                            <!---->
+                            <span class="player-name-col-xs">G. Richards</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">43</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="orange">72</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 2"</td>
+            <td _ngcontent-lineup-app-id-c106="">210</td>
+            <td _ngcontent-lineup-app-id-c106="">32</td>
+            <td _ngcontent-lineup-app-id-c106="">5/27/88</td>
+            <td _ngcontent-lineup-app-id-c106="">10th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Oklahoma</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Phillips Valdez" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Phillips Valdez</span>
+                        <!---->
+                        <span class="player-name-col-xs">P. Valdez</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">71</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="orange">72</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 2"</td>
+            <td _ngcontent-lineup-app-id-c106="">160</td>
+            <td _ngcontent-lineup-app-id-c106="">29</td>
+            <td _ngcontent-lineup-app-id-c106="">11/16/91</td>
+            <td _ngcontent-lineup-app-id-c106="">2nd season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Martin Perez" href="/mlb/player-stats/martin-perez">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Martin Perez" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/martin-perez">
+                        <span>
+                            <span class="player-name-col-lg">Martin Perez</span>
+                            <!---->
+                            <span class="player-name-col-xs">M. Perez</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">54</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">71</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 0"</td>
+            <td _ngcontent-lineup-app-id-c106="">200</td>
+            <td _ngcontent-lineup-app-id-c106="">29</td>
+            <td _ngcontent-lineup-app-id-c106="">4/4/91</td>
+            <td _ngcontent-lineup-app-id-c106="">9th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Hirokazu Sawamura" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Hirokazu Sawamura</span>
+                        <!---->
+                        <span class="player-name-col-xs">H. Sawamura</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">19</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">68</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 0"</td>
+            <td _ngcontent-lineup-app-id-c106="">212</td>
+            <td _ngcontent-lineup-app-id-c106="">32</td>
+            <td _ngcontent-lineup-app-id-c106="">4/3/88</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Ryan Brasier" href="/mlb/player-stats/ryan-brasier">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Ryan Brasier" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/ryan-brasier">
+                        <span>
+                            <span class="player-name-col-lg">Ryan Brasier</span>
+                            <!---->
+                            <span class="player-name-col-xs">R. Brasier</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">70</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">61</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 0"</td>
+            <td _ngcontent-lineup-app-id-c106="">227</td>
+            <td _ngcontent-lineup-app-id-c106="">33</td>
+            <td _ngcontent-lineup-app-id-c106="">8/26/87</td>
+            <td _ngcontent-lineup-app-id-c106="">4th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Weatherford College</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Connor Seabold" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Connor Seabold</span>
+                        <!---->
+                        <span class="player-name-col-xs">C. Seabold</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">67</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">60</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 2"</td>
+            <td _ngcontent-lineup-app-id-c106="">190</td>
+            <td _ngcontent-lineup-app-id-c106="">25</td>
+            <td _ngcontent-lineup-app-id-c106="">1/24/96</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Josh Taylor" href="/mlb/player-stats/josh-taylor">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Josh Taylor" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/josh-taylor">
+                        <span>
+                            <span class="player-name-col-lg">Josh Taylor</span>
+                            <!---->
+                            <span class="player-name-col-xs">J. Taylor</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">38</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">92</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 5"</td>
+            <td _ngcontent-lineup-app-id-c106="">245</td>
+            <td _ngcontent-lineup-app-id-c106="">28</td>
+            <td _ngcontent-lineup-app-id-c106="">3/2/93</td>
+            <td _ngcontent-lineup-app-id-c106="">2nd season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Georgia College &amp; State</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Austin Davis" href="/mlb/player-stats/austin-davis">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Austin Davis" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/austin-davis">
+                        <span>
+                            <span class="player-name-col-lg">Austin Davis</span>
+                            <!---->
+                            <span class="player-name-col-xs">A. Davis</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">65</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">91</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 4"</td>
+            <td _ngcontent-lineup-app-id-c106="">235</td>
+            <td _ngcontent-lineup-app-id-c106="">28</td>
+            <td _ngcontent-lineup-app-id-c106="">2/3/93</td>
+            <td _ngcontent-lineup-app-id-c106="">3rd season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Cal State Bakersfield</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">P</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Garrett Whitlock" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Garrett Whitlock</span>
+                        <!---->
+                        <span class="player-name-col-xs">G. Whitlock</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">72</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">91</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 5"</td>
+            <td _ngcontent-lineup-app-id-c106="">225</td>
+            <td _ngcontent-lineup-app-id-c106="">24</td>
+            <td _ngcontent-lineup-app-id-c106="">6/11/96</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">DH</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="J.D. Martinez" href="/mlb/player-stats/jd-martinez">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="J.D. Martinez" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/jd-martinez">
+                        <span>
+                            <span class="player-name-col-lg">J.D. Martinez</span>
+                            <!---->
+                            <span class="player-name-col-xs">J. Martinez</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">28</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="light-green">89</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 3"</td>
+            <td _ngcontent-lineup-app-id-c106="">230</td>
+            <td _ngcontent-lineup-app-id-c106="">33</td>
+            <td _ngcontent-lineup-app-id-c106="">8/21/87</td>
+            <td _ngcontent-lineup-app-id-c106="">10th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Nova Southeastern</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Jason Groome" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Jason Groome</span>
+                        <!---->
+                        <span class="player-name-col-xs">J. Groome</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">77</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">67</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 6"</td>
+            <td _ngcontent-lineup-app-id-c106="">262</td>
+            <td _ngcontent-lineup-app-id-c106="">22</td>
+            <td _ngcontent-lineup-app-id-c106="">8/23/98</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">CL</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Matt Barnes" href="/mlb/player-stats/matt-barnes">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Matt Barnes" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/matt-barnes">
+                        <span>
+                            <span class="player-name-col-lg">Matt Barnes</span>
+                            <!---->
+                            <span class="player-name-col-xs">M. Barnes</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">32</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">90</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 4"</td>
+            <td _ngcontent-lineup-app-id-c106="">208</td>
+            <td _ngcontent-lineup-app-id-c106="">30</td>
+            <td _ngcontent-lineup-app-id-c106="">6/17/90</td>
+            <td _ngcontent-lineup-app-id-c106="">7th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Connecticut</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">C</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Kevin Plawecki" href="/mlb/player-stats/kevin-plawecki">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Kevin Plawecki" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/kevin-plawecki">
+                        <span>
+                            <span class="player-name-col-lg">Kevin Plawecki</span>
+                            <!---->
+                            <span class="player-name-col-xs">K. Plawecki</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">25</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="yellow">83</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 2"</td>
+            <td _ngcontent-lineup-app-id-c106="">208</td>
+            <td _ngcontent-lineup-app-id-c106="">30</td>
+            <td _ngcontent-lineup-app-id-c106="">2/26/91</td>
+            <td _ngcontent-lineup-app-id-c106="">6th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Purdue</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">C</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Christian Vazquez" href="/mlb/player-stats/christian-vazquez">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Christian Vazquez" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/christian-vazquez">
+                        <span>
+                            <span class="player-name-col-lg">Christian Vazquez</span>
+                            <!---->
+                            <span class="player-name-col-xs">C. Vazquez</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">7</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="orange">75</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">5' 9"</td>
+            <td _ngcontent-lineup-app-id-c106="">205</td>
+            <td _ngcontent-lineup-app-id-c106="">30</td>
+            <td _ngcontent-lineup-app-id-c106="">8/21/90</td>
+            <td _ngcontent-lineup-app-id-c106="">6th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">C</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Ronaldo Hernandez" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Ronaldo Hernandez</span>
+                        <!---->
+                        <span class="player-name-col-xs">R. Hernandez</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">59</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">67</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 1"</td>
+            <td _ngcontent-lineup-app-id-c106="">230</td>
+            <td _ngcontent-lineup-app-id-c106="">23</td>
+            <td _ngcontent-lineup-app-id-c106="">11/11/97</td>
+            <td _ngcontent-lineup-app-id-c106="">6th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">C</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Connor Wong" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Connor Wong</span>
+                        <!---->
+                        <span class="player-name-col-xs">C. Wong</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">74</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">91</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 1"</td>
+            <td _ngcontent-lineup-app-id-c106="">181</td>
+            <td _ngcontent-lineup-app-id-c106="">24</td>
+            <td _ngcontent-lineup-app-id-c106="">5/19/96</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">3B</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Rafael Devers" href="/mlb/player-stats/rafael-devers">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Rafael Devers" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/rafael-devers">
+                        <span>
+                            <span class="player-name-col-lg">Rafael Devers</span>
+                            <!---->
+                            <span class="player-name-col-xs">R. Devers</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">11</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">90</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 0"</td>
+            <td _ngcontent-lineup-app-id-c106="">240</td>
+            <td _ngcontent-lineup-app-id-c106="">24</td>
+            <td _ngcontent-lineup-app-id-c106="">10/24/96</td>
+            <td _ngcontent-lineup-app-id-c106="">4th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">3B</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Bobby Dalbec" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Bobby Dalbec</span>
+                        <!---->
+                        <span class="player-name-col-xs">B. Dalbec</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">29</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="light-green">85</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 4"</td>
+            <td _ngcontent-lineup-app-id-c106="">227</td>
+            <td _ngcontent-lineup-app-id-c106="">25</td>
+            <td _ngcontent-lineup-app-id-c106="">6/29/95</td>
+            <td _ngcontent-lineup-app-id-c106="">5th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Arizona</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">3B</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Hudson Potts" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Hudson Potts</span>
+                        <!---->
+                        <span class="player-name-col-xs">H. Potts</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">36</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">67</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 3"</td>
+            <td _ngcontent-lineup-app-id-c106="">205</td>
+            <td _ngcontent-lineup-app-id-c106="">22</td>
+            <td _ngcontent-lineup-app-id-c106="">10/28/98</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">SS</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Christian Arroyo" href="/mlb/player-stats/christian-arroyo">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Christian Arroyo" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/christian-arroyo">
+                        <span>
+                            <span class="player-name-col-lg">Christian Arroyo</span>
+                            <!---->
+                            <span class="player-name-col-xs">C. Arroyo</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">39</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="yellow">83</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 1"</td>
+            <td _ngcontent-lineup-app-id-c106="">210</td>
+            <td _ngcontent-lineup-app-id-c106="">25</td>
+            <td _ngcontent-lineup-app-id-c106="">5/30/95</td>
+            <td _ngcontent-lineup-app-id-c106="">4th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">SS</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Jonathan Arauz" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Jonathan Arauz</span>
+                        <!---->
+                        <span class="player-name-col-xs">J. Arauz</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">3</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="orange">73</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 0"</td>
+            <td _ngcontent-lineup-app-id-c106="">195</td>
+            <td _ngcontent-lineup-app-id-c106="">22</td>
+            <td _ngcontent-lineup-app-id-c106="">8/3/98</td>
+            <td _ngcontent-lineup-app-id-c106="">6th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">SS</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Xander Bogaerts" href="/mlb/player-stats/xander-bogaerts">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Xander Bogaerts" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/xander-bogaerts">
+                        <span>
+                            <span class="player-name-col-lg">Xander Bogaerts</span>
+                            <!---->
+                            <span class="player-name-col-xs">X. Bogaerts</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">2</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="green">91</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 2"</td>
+            <td _ngcontent-lineup-app-id-c106="">218</td>
+            <td _ngcontent-lineup-app-id-c106="">28</td>
+            <td _ngcontent-lineup-app-id-c106="">10/1/92</td>
+            <td _ngcontent-lineup-app-id-c106="">8th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">RF</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Hunter Renfroe" href="/mlb/player-stats/hunter-renfroe">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Hunter Renfroe" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/hunter-renfroe">
+                        <span>
+                            <span class="player-name-col-lg">Hunter Renfroe</span>
+                            <!---->
+                            <span class="player-name-col-xs">H. Renfroe</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">10</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="light-green">86</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 1"</td>
+            <td _ngcontent-lineup-app-id-c106="">230</td>
+            <td _ngcontent-lineup-app-id-c106="">29</td>
+            <td _ngcontent-lineup-app-id-c106="">1/28/92</td>
+            <td _ngcontent-lineup-app-id-c106="">5th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Mississippi State</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">RF</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Alex Verdugo" href="/mlb/player-stats/alex-verdugo">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Alex Verdugo" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/alex-verdugo">
+                        <span>
+                            <span class="player-name-col-lg">Alex Verdugo</span>
+                            <!---->
+                            <span class="player-name-col-xs">A. Verdugo</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">99</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="light-green">84</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 0"</td>
+            <td _ngcontent-lineup-app-id-c106="">192</td>
+            <td _ngcontent-lineup-app-id-c106="">24</td>
+            <td _ngcontent-lineup-app-id-c106="">5/15/96</td>
+            <td _ngcontent-lineup-app-id-c106="">4th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">CF</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Kike Hernandez" href="/mlb/player-stats/kike-hernandez">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Kike Hernandez" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/kike-hernandez">
+                        <span>
+                            <span class="player-name-col-lg">Kike Hernandez</span>
+                            <!---->
+                            <span class="player-name-col-xs">K. Hernandez</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">5</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="orange">75</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">5' 11"</td>
+            <td _ngcontent-lineup-app-id-c106="">190</td>
+            <td _ngcontent-lineup-app-id-c106="">29</td>
+            <td _ngcontent-lineup-app-id-c106="">8/24/91</td>
+            <td _ngcontent-lineup-app-id-c106="">7th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">CF</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <a class="link-black pl-img-wrapper" aria-label="Tim Locastro" href="/mlb/player-stats/tim-locastro">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Tim Locastro" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </a><!---->
+                    <a class="link-black-underline" href="/mlb/player-stats/tim-locastro">
+                        <span>
+                            <span class="player-name-col-lg">Tim Locastro</span>
+                            <!---->
+                            <span class="player-name-col-xs">T. Locastro</span><!---->
+                            <!---->
+                        </span>
+                    </a>
+                    <!----><!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">16</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">69</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 1"</td>
+            <td _ngcontent-lineup-app-id-c106="">190</td>
+            <td _ngcontent-lineup-app-id-c106="">28</td>
+            <td _ngcontent-lineup-app-id-c106="">7/14/92</td>
+            <td _ngcontent-lineup-app-id-c106="">4th season</td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">Ithaca</td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">CF</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Jarren Duran" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Jarren Duran</span>
+                        <!---->
+                        <span class="player-name-col-xs">J. Duran</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">40</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">67</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 2"</td>
+            <td _ngcontent-lineup-app-id-c106="">212</td>
+            <td _ngcontent-lineup-app-id-c106="">24</td>
+            <td _ngcontent-lineup-app-id-c106="">9/5/96</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr>
+        <tr _ngcontent-lineup-app-id-c106="" class="t-content">
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3">CF</td>
+            <td _ngcontent-lineup-app-id-c106="" class="image-player-name-td">
+                <app-player-link _ngcontent-lineup-app-id-c106="">
+                    <!---->
+
+
+
+                    <span class="pl-img-wrapper">
+                        <app-fallback-img _nghost-lineup-app-id-c102="">
+                            <img _ngcontent-lineup-app-id-c102="" class="player-image-cap" alt="Jeisson Rosario" src="https://elasticbeanstalk-us-east-1-117329177406.lineups.com/assets/images/nfl/players/low-res/0.png" width="65" height="70">
+                            <app-defer-load _ngcontent-lineup-app-id-c102="" _nghost-lineup-app-id-c22="">
+                                <div _ngcontent-lineup-app-id-c22="" class="d-inline">
+                                    <!---->
+                                </div>
+                            </app-defer-load><!---->
+                            <!---->
+                        </app-fallback-img>
+                    </span><!---->
+                    <span>
+                        <span class="player-name-col-lg">Jeisson Rosario</span>
+                        <!---->
+                        <span class="player-name-col-xs">J. Rosario</span><!---->
+                    </span>
+                    <!---->
+                    <!----><!---->
+                    <!---->
+                    <!---->
+                </app-player-link>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">66</td>
+            <td _ngcontent-lineup-app-id-c106="">
+                <app-rating _ngcontent-lineup-app-id-c106="" _nghost-lineup-app-id-c104="">
+                    <div _ngcontent-lineup-app-id-c104="" class="red">67</div>
+                    <!---->
+                    <!---->
+                </app-rating>
+            </td>
+            <td _ngcontent-lineup-app-id-c106="">6' 1"</td>
+            <td _ngcontent-lineup-app-id-c106="">191</td>
+            <td _ngcontent-lineup-app-id-c106="">21</td>
+            <td _ngcontent-lineup-app-id-c106="">10/22/99</td>
+            <td _ngcontent-lineup-app-id-c106=""></td>
+
+
+
+            <td _ngcontent-lineup-app-id-c106="" class="text-left px-3"></td>
+        </tr><!---->
+    </tbody>
+</table>
