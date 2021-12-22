@@ -12,9 +12,16 @@
 <body>
     <div class="row">
         <div class="col-md-12">
-            <img src="~/Images/Red sox 1.jpg" />
+            <img src="~/Images/Red sox 1.jpg" width="200" height="200" />
         </div>
     </div>
+    <nav style="color:blue">
+        @Html.ActionLink("Home", "Home", "Home")
+        @Html.ActionLink("Gallery", "Gallery", "Home")
+        @Html.ActionLink("History", "History", "Home")
+        @Html.ActionLink("Clips", "Clips", "Home")
+        @Html.ActionLink("Squad", "Squad", "Home")
+    </nav>
     <div>
         @RenderBody()
     </div>
